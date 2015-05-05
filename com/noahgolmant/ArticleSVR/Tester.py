@@ -13,7 +13,7 @@ from sklearn.pipeline import Pipeline
 import numpy
 
 
-name_to_index = { "conservative":0, "unbiased":1, "liberal":2}
+name_to_index = { "conservative":0.0, "liberal":1.0}
 # used for loading training data into classifier
 print "Loading corpus"
 corpus = numpy.load("corpus.npy")
